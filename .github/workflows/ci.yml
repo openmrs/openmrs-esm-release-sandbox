@@ -18,7 +18,7 @@ jobs:
   build:
     uses: openmrs/openmrs-contrib-gha-workflows/.github/workflows/build-frontend-module.yml@frontend-tagged-release
 
-  release:
+  pre-release:
     if: github.event_name != 'workflow_dispatch'
     needs: build
     uses: openmrs/openmrs-contrib-gha-workflows/.github/workflows/release-frontend-module.yml@frontend-tagged-release

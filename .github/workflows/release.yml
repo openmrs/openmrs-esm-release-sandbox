@@ -3,10 +3,12 @@ on:
   workflow_dispatch:
     inputs:
       release_type:
+        description: 'Version bump'
         type: choice
-        options: [patch, minor, major, custom]
+        options: [patch, minor, major]
         default: patch
       custom_version:
+        description: 'Custom version (e.g. 12.5.0). If set, overrides the version bump above.'
         required: false
 jobs:
   release:
