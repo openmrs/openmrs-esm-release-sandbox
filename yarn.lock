@@ -532,23 +532,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@datasert/cronjs-matcher@npm:^1.2.0":
-  version: 1.4.0
-  resolution: "@datasert/cronjs-matcher@npm:1.4.0"
-  dependencies:
-    "@datasert/cronjs-parser": "npm:^1.4.0"
-    luxon: "npm:^3.0.4"
-  checksum: 10/40efec8d6517506b6a0fca8dc2c91c711cd895da21b73b626abc0d8392232d24f3d4c667f7b97a0e4ed5a5b25855be8301ae7b13b3572b4c9f3bd87a0531cdf5
-  languageName: node
-  linkType: hard
-
-"@datasert/cronjs-parser@npm:^1.2.0, @datasert/cronjs-parser@npm:^1.4.0":
-  version: 1.4.0
-  resolution: "@datasert/cronjs-parser@npm:1.4.0"
-  checksum: 10/678128e3e8e9149969a7cbc3d953e80fdbe7733e1cffb20fdfd07cfdc588c000d5c1ea353c88622809e645327f844752bdb59cf066ec86ee132234d8698499cf
-  languageName: node
-  linkType: hard
-
 "@discoveryjs/json-ext@npm:0.5.7, @discoveryjs/json-ext@npm:^0.5.7":
   version: 0.5.7
   resolution: "@discoveryjs/json-ext@npm:0.5.7"
@@ -2488,47 +2471,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/admin-tools@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/admin-tools@workspace:."
-  dependencies:
-    "@openmrs/eslint-config": "npm:^2.0.0"
-    "@openmrs/esm-framework": "npm:next"
-    "@playwright/test": "npm:^1.50.1"
-    "@swc/cli": "npm:^0.1.65"
-    "@swc/core": "npm:^1.4.2"
-    "@testing-library/dom": "npm:^10.4.1"
-    "@testing-library/jest-dom": "npm:^6.8.0"
-    "@testing-library/react": "npm:^16.3.0"
-    "@testing-library/user-event": "npm:^14.5.2"
-    "@types/jsdom": "npm:20.0.1"
-    "@types/lodash-es": "npm:^4.17.12"
-    "@types/react": "npm:^18.3.21"
-    "@types/react-dom": "npm:^18.3.0"
-    "@types/webpack-env": "npm:^1.18.4"
-    "@vitest/coverage-v8": "npm:^4.1.2"
-    concurrently: "npm:^8.2.2"
-    dayjs: "npm:^1.11.10"
-    dotenv: "npm:^16.4.5"
-    eslint: "npm:^9.39.0"
-    husky: "npm:^9.0.11"
-    i18next: "npm:^25.0.0"
-    i18next-parser: "npm:^9.3.0"
-    identity-obj-proxy: "npm:^3.0.0"
-    jsdom: "npm:^28.0.0"
-    lint-staged: "npm:^15.2.2"
-    openmrs: "npm:next"
-    prettier: "npm:^3.2.5"
-    react: "npm:^18.3.1"
-    react-dom: "npm:^18.3.1"
-    react-i18next: "npm:^16.0.0"
-    react-router-dom: "npm:^6.22.2"
-    turbo: "npm:^2.5.2"
-    typescript: "npm:^5.0.0"
-    vitest: "npm:^4.1.2"
-  languageName: unknown
-  linkType: soft
-
 "@openmrs/carbon-css-guard@npm:10.0.1-pre.5690":
   version: 10.0.1-pre.5690
   resolution: "@openmrs/carbon-css-guard@npm:10.0.1-pre.5690"
@@ -2746,25 +2688,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-metadataexport-app@workspace:packages/esm-metadataexport-app":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-metadataexport-app@workspace:packages/esm-metadataexport-app"
-  dependencies:
-    "@carbon/react": "npm:^1.83.0"
-    vitest: "npm:^4.1.2"
-  peerDependencies:
-    "@carbon/react": 1.x
-    "@openmrs/esm-framework": 10.x
-    dayjs: 1.x
-    i18next: 25.x
-    react: 18.x
-    react-dom: 18.x
-    react-i18next: 16.x
-    react-router-dom: 6.x
-    swr: 2.x
-  languageName: unknown
-  linkType: soft
-
 "@openmrs/esm-navigation@npm:10.0.1-pre.5690":
   version: 10.0.1-pre.5690
   resolution: "@openmrs/esm-navigation@npm:10.0.1-pre.5690"
@@ -2776,45 +2699,6 @@ __metadata:
   checksum: 10/c7091db4a3c54797e9f312e04bd77162975a840d8bbf2f7c3a3a6d6bcd6f8969b87692274f80d4a7d9982e690f08fc2a650f8fbecf1426d0530261d0d426b610
   languageName: node
   linkType: hard
-
-"@openmrs/esm-openconceptlab-app@workspace:packages/esm-admin-openconceptlab-app":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-openconceptlab-app@workspace:packages/esm-admin-openconceptlab-app"
-  dependencies:
-    "@carbon/react": "npm:^1.83.0"
-    lodash-es: "npm:^4.17.21"
-    swr: "npm:2.5.1"
-    vitest: "npm:^4.1.2"
-  peerDependencies:
-    "@carbon/react": 1.x
-    "@openmrs/esm-framework": 10.x
-    dayjs: 1.x
-    react: 18.x
-    react-dom: 18.x
-    react-i18next: 16.x
-    react-router-dom: 6.x
-    swr: 2.x
-  languageName: unknown
-  linkType: soft
-
-"@openmrs/esm-patient-documents-admin-app@workspace:packages/esm-patient-documents-admin-app":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-patient-documents-admin-app@workspace:packages/esm-patient-documents-admin-app"
-  dependencies:
-    "@carbon/react": "npm:^1.83.0"
-    swr: "npm:2.5.1"
-    vitest: "npm:^4.1.2"
-  peerDependencies:
-    "@carbon/react": 1.x
-    "@openmrs/esm-framework": 10.x
-    dayjs: 1.x
-    react: 18.x
-    react-dom: 18.x
-    react-i18next: 16.x
-    react-router-dom: 6.x
-    swr: 2.x
-  languageName: unknown
-  linkType: soft
 
 "@openmrs/esm-react-utils@npm:10.0.1-pre.5690":
   version: 10.0.1-pre.5690
@@ -2843,31 +2727,6 @@ __metadata:
   checksum: 10/6ee55abd47996ae7e1ef1c3b7aa202c0171bca030c355acac6fa8e485ec58f8b0296f577cfd98769a8297fd017f016125a0ac257a1c980025080d4035afe3e44
   languageName: node
   linkType: hard
-
-"@openmrs/esm-reports-app@workspace:packages/esm-reports-app":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-reports-app@workspace:packages/esm-reports-app"
-  dependencies:
-    "@carbon/react": "npm:^1.83.0"
-    "@datasert/cronjs-matcher": "npm:^1.2.0"
-    "@datasert/cronjs-parser": "npm:^1.2.0"
-    cronstrue: "npm:^2.41.0"
-    dayjs: "npm:^1.8.36"
-    lodash-es: "npm:^4.17.21"
-    swr: "npm:2.5.1"
-    vitest: "npm:^4.1.2"
-  peerDependencies:
-    "@carbon/react": 1.x
-    "@openmrs/esm-framework": 10.x
-    dayjs: 1.x
-    i18next: 25.x
-    react: 18.x
-    react-dom: 18.x
-    react-i18next: 16.x
-    react-router-dom: 6.x
-    swr: 2.x
-  languageName: unknown
-  linkType: soft
 
 "@openmrs/esm-routes@npm:10.0.1-pre.5690":
   version: 10.0.1-pre.5690
@@ -2932,26 +2791,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@openmrs/esm-system-admin-app@workspace:packages/esm-system-admin-app":
-  version: 0.0.0-use.local
-  resolution: "@openmrs/esm-system-admin-app@workspace:packages/esm-system-admin-app"
-  dependencies:
-    "@carbon/react": "npm:^1.83.0"
-    lodash-es: "npm:^4.17.21"
-    swr: "npm:2.5.1"
-    vitest: "npm:^4.1.2"
-  peerDependencies:
-    "@carbon/react": 1.x
-    "@openmrs/esm-framework": 10.x
-    dayjs: 1.x
-    react: 18.x
-    react-dom: 18.x
-    react-i18next: 16.x
-    react-router-dom: 6.x
-    swr: 2.x
-  languageName: unknown
-  linkType: soft
-
 "@openmrs/esm-translations@npm:10.0.1-pre.5690":
   version: 10.0.1-pre.5690
   resolution: "@openmrs/esm-translations@npm:10.0.1-pre.5690"
@@ -2979,6 +2818,67 @@ __metadata:
   checksum: 10/1d14cc4c5355576d69657758d59f2874bc2fc0f4d2782fab43ac5d4db81bac6d1490022ce6ae721decc3277886885b9a8f9161d23018f7327450e4094ea7f2d3
   languageName: node
   linkType: hard
+
+"@openmrs/openmrs-esm-release-sandbox-1@workspace:packages/esm-admin-openconceptlab-app":
+  version: 0.0.0-use.local
+  resolution: "@openmrs/openmrs-esm-release-sandbox-1@workspace:packages/esm-admin-openconceptlab-app"
+  dependencies:
+    "@carbon/react": "npm:^1.83.0"
+    lodash-es: "npm:^4.17.21"
+    swr: "npm:2.5.1"
+    vitest: "npm:^4.1.2"
+  peerDependencies:
+    "@carbon/react": 1.x
+    "@openmrs/esm-framework": 10.x
+    dayjs: 1.x
+    react: 18.x
+    react-dom: 18.x
+    react-i18next: 16.x
+    react-router-dom: 6.x
+    swr: 2.x
+  languageName: unknown
+  linkType: soft
+
+"@openmrs/openmrs-esm-release-sandbox@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@openmrs/openmrs-esm-release-sandbox@workspace:."
+  dependencies:
+    "@openmrs/eslint-config": "npm:^2.0.0"
+    "@openmrs/esm-framework": "npm:next"
+    "@playwright/test": "npm:^1.50.1"
+    "@swc/cli": "npm:^0.1.65"
+    "@swc/core": "npm:^1.4.2"
+    "@testing-library/dom": "npm:^10.4.1"
+    "@testing-library/jest-dom": "npm:^6.8.0"
+    "@testing-library/react": "npm:^16.3.0"
+    "@testing-library/user-event": "npm:^14.5.2"
+    "@types/jsdom": "npm:20.0.1"
+    "@types/lodash-es": "npm:^4.17.12"
+    "@types/react": "npm:^18.3.21"
+    "@types/react-dom": "npm:^18.3.0"
+    "@types/webpack-env": "npm:^1.18.4"
+    "@vitest/coverage-v8": "npm:^4.1.2"
+    concurrently: "npm:^8.2.2"
+    dayjs: "npm:^1.11.10"
+    dotenv: "npm:^16.4.5"
+    eslint: "npm:^9.39.0"
+    husky: "npm:^9.0.11"
+    i18next: "npm:^25.0.0"
+    i18next-parser: "npm:^9.3.0"
+    identity-obj-proxy: "npm:^3.0.0"
+    jsdom: "npm:^28.0.0"
+    lint-staged: "npm:^15.2.2"
+    openmrs: "npm:next"
+    prettier: "npm:^3.2.5"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+    react-i18next: "npm:^16.0.0"
+    react-router-dom: "npm:^6.22.2"
+    turbo: "npm:^2.5.2"
+    typescript: "npm:^5.0.0"
+    vitest: "npm:^4.1.2"
+  languageName: unknown
+  linkType: soft
 
 "@openmrs/rspack-config@npm:10.0.1-pre.5690":
   version: 10.0.1-pre.5690
@@ -8221,15 +8121,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cronstrue@npm:^2.41.0":
-  version: 2.53.0
-  resolution: "cronstrue@npm:2.53.0"
-  bin:
-    cronstrue: bin/cli.js
-  checksum: 10/98f693779c0f70d8b6caef4e2145ff8d9f846053d49bdb34b6841d79965f127c6537a4692a2e3e5e4b0a90922c088309c401f7236241a82d79dd9c88d24076c9
-  languageName: node
-  linkType: hard
-
 "cross-spawn@npm:^5.0.1":
   version: 5.1.0
   resolution: "cross-spawn@npm:5.1.0"
@@ -8923,7 +8814,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs@npm:^1.11.10, dayjs@npm:^1.11.13, dayjs@npm:^1.8.36":
+"dayjs@npm:^1.11.10, dayjs@npm:^1.11.13":
   version: 1.11.13
   resolution: "dayjs@npm:1.11.13"
   checksum: 10/7374d63ab179b8d909a95e74790def25c8986e329ae989840bacb8b1888be116d20e1c4eee75a69ea0dfbae13172efc50ef85619d304ee7ca3c01d5878b704f5
@@ -12831,13 +12722,6 @@ __metadata:
   version: 7.18.3
   resolution: "lru-cache@npm:7.18.3"
   checksum: 10/6029ca5aba3aacb554e919d7ef804fffd4adfc4c83db00fac8248c7c78811fb6d4b6f70f7fd9d55032b3823446546a007edaa66ad1f2377ae833bd983fac5d98
-  languageName: node
-  linkType: hard
-
-"luxon@npm:^3.0.4":
-  version: 3.5.0
-  resolution: "luxon@npm:3.5.0"
-  checksum: 10/48f86e6c1c96815139f8559456a3354a276ba79bcef0ae0d4f2172f7652f3ba2be2237b0e103b8ea0b79b47715354ac9fac04eb1db3485dcc72d5110491dd47f
   languageName: node
   linkType: hard
 
