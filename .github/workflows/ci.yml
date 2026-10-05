@@ -16,12 +16,12 @@ concurrency:
 
 jobs:
   build:
-    uses: openmrs/openmrs-contrib-gha-workflows/.github/workflows/build-frontend-module.yml@main
+    uses: openmrs/openmrs-contrib-gha-workflows/.github/workflows/build-frontend-module.yml@frontend-tagged-release
 
   release:
     if: github.event_name != 'workflow_dispatch'
     needs: build
-    uses: openmrs/openmrs-contrib-gha-workflows/.github/workflows/release-frontend-module.yml@main
+    uses: openmrs/openmrs-contrib-gha-workflows/.github/workflows/release-frontend-module.yml@frontend-tagged-release
     with:
       pre_release_publish_command: 'yarn pack'
     secrets:
