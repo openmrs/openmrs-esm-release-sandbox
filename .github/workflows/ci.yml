@@ -22,6 +22,8 @@ jobs:
     if: github.event_name != 'workflow_dispatch'
     needs: build
     uses: openmrs/openmrs-contrib-gha-workflows/.github/workflows/release-frontend-module.yml@main
+    with:
+      pre_release_publish_command: 'yarn pack'
     secrets:
       NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
       BOT_PAT: ${{ secrets.OMRS_BOT_GH_TOKEN }}

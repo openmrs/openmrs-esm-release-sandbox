@@ -1,5 +1,5 @@
 {
-  "name": "@openmrs/admin-tools",
+  "name": "@openmrs/openmrs-esm-release-sandbox",
   "version": "4.4.0",
   "workspaces": [
     "packages/*"
