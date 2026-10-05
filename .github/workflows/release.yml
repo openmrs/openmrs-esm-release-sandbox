@@ -11,8 +11,7 @@ on:
         description: 'Custom version (e.g. 12.5.0). If set, overrides the version bump above.'
         required: false
       publish_only:
-        description: 'Recovery only: re-publish an existing release to npm after a failed publish.
-          Skips the version bump, commit and tag. Set the custom version to the tag that already exists (e.g. 12.4.0).'
+        description: 'Re-Publish only (For recovering from a failed npm publish. Skips the version bump, commit, and tag. Set "Custom version" to the existing release version, e.g. 12.4.0.)'
         type: boolean
         default: false
         required: false
