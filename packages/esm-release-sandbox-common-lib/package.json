@@ -1,0 +1,31 @@
+{
+  "name": "@openmrs/esm-release-sandbox-common-lib",
+  "version": "5.2.0",
+  "license": "MPL-2.0",
+  "description": "Common library shared by the release sandbox frontend modules",
+  "main": "src/index.ts",
+  "scripts": {
+    "lint": "eslint src",
+    "test": "vitest run --passWithNoTests",
+    "typescript": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openmrs/openmrs-esm-admin-tools.git"
+  },
+  "homepage": "https://github.com/openmrs/openmrs-esm-admin-tools#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/openmrs/openmrs-esm-admin-tools/issues"
+  },
+  "peerDependencies": {
+    "@openmrs/esm-framework": "10.x",
+    "react": "18.x",
+    "react-dom": "18.x"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.2"
+  }
+}

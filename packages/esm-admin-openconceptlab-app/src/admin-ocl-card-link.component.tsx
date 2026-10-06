@@ -1,18 +1,12 @@
-import React, { type MouseEvent } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Layer, ClickableTile } from '@carbon/react';
-import { ArrowRightIcon, navigate } from '@openmrs/esm-framework';
+import { ArrowRightIcon } from '@openmrs/esm-framework';
+import { handlePlainLeftClick } from '@openmrs/esm-release-sandbox-common-lib';
 
 const oclUrl = `${window.spaBase}/ocl`;
 
-// Navigate client-side on a plain left click; modified clicks fall through
-// to the anchor so they open a new tab or window as usual.
-function handleClick(event: MouseEvent) {
-  if (event.button === 0 && !event.ctrlKey && !event.shiftKey && !event.altKey && !event.metaKey) {
-    event.preventDefault();
-    navigate({ to: oclUrl });
-  }
-}
+const handleClick = handlePlainLeftClick(oclUrl);
 
 const OpenConceptLabCardLink: React.FC = () => {
   const { t } = useTranslation();

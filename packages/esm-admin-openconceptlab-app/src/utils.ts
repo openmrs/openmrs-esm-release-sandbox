@@ -1,4 +1,4 @@
-const NUMBER_OF_SLASHES_AFTER_BASE_URL = 5;
+import { trimTrailingSlash, versionedSubscriptionUrlSlashCount } from '@openmrs/esm-release-sandbox-common-lib';
 
 /*
  * This checks if collection version has been passed to subscription url by checking number of forward slashes after base url
@@ -7,9 +7,7 @@ const NUMBER_OF_SLASHES_AFTER_BASE_URL = 5;
  * Also returns false if the string is not a valid URL
  */
 export const isVersionDefinedInUrl = (subscriptionUrl: string) => {
-  if (subscriptionUrl.endsWith('/')) {
-    subscriptionUrl = subscriptionUrl.substring(0, subscriptionUrl.lastIndexOf('/'));
-  }
+  subscriptionUrl = trimTrailingSlash(subscriptionUrl);
 
   let url;
   try {
@@ -19,7 +17,7 @@ export const isVersionDefinedInUrl = (subscriptionUrl: string) => {
   }
 
   let count = url.pathname.match(/\//g)?.length ?? 0;
-  if (count == NUMBER_OF_SLASHES_AFTER_BASE_URL) {
+  if (count == versionedSubscriptionUrlSlashCount) {
     return true;
   } else {
     return false;
