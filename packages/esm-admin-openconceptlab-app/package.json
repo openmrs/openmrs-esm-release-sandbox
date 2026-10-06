@@ -1,6 +1,6 @@
 {
   "name": "@openmrs/openmrs-esm-release-sandbox-1",
-  "version": "5.2.0",
+  "version": "6.0.0",
   "license": "MPL-2.0",
   "description": "Open Concept Lab management frontend module for O3",
   "browser": "dist/openmrs-esm-openconceptlab-app.js",
@@ -46,7 +46,7 @@
   "peerDependencies": {
     "@carbon/react": "1.x",
     "@openmrs/esm-framework": "10.x",
-    "@openmrs/esm-release-sandbox-common-lib": "5.x",
+    "@openmrs/esm-release-sandbox-common-lib": "6.x",
     "dayjs": "1.x",
     "react": "18.x",
     "react-dom": "18.x",
