@@ -23,7 +23,7 @@ jobs:
   release:
     permissions:
       contents: write
-    uses: openmrs/openmrs-contrib-gha-workflows/.github/workflows/release-frontend-module.yml@frontend-release-robustness
+    uses: openmrs/openmrs-contrib-gha-workflows/.github/workflows/release-frontend-module.yml@main
     with:
       release_type: ${{ inputs.release_type }}
       release_version: ${{ inputs.custom_version }}
