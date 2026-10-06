@@ -24,6 +24,8 @@ jobs:
     uses: openmrs/openmrs-contrib-gha-workflows/.github/workflows/release-frontend-module.yml@frontend-release-robustness
     with:
       pre_release_publish_command: 'yarn pack'
+      # The sandbox must not start real RefApp builds.
+      trigger_refapp_build: false
     secrets:
       NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
       BOT_PAT: ${{ secrets.OMRS_BOT_GH_TOKEN }}

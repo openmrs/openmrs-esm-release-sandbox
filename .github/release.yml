@@ -1,0 +1,11 @@
+changelog:
+  exclude:
+    authors:
+      - openmrs-bot
+  categories:
+    - title: Labelled
+      labels:
+        - sandbox-labelled
+    - title: Other Changes
+      labels:
+        - '*'
