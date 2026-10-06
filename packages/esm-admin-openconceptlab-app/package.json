@@ -1,6 +1,6 @@
 {
   "name": "@openmrs/openmrs-esm-release-sandbox-1",
-  "version": "5.1.6",
+  "version": "5.1.7",
   "license": "MPL-2.0",
   "description": "Open Concept Lab management frontend module for O3",
   "browser": "dist/openmrs-esm-openconceptlab-app.js",
