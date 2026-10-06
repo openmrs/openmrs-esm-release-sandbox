@@ -1,6 +1,6 @@
 {
   "name": "@openmrs/esm-release-sandbox-common-lib",
-  "version": "6.0.2",
+  "version": "6.0.1",
   "license": "MPL-2.0",
   "description": "Common library shared by the release sandbox frontend modules",
   "main": "src/index.ts",
